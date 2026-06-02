@@ -2,7 +2,8 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Produk Kemasin.id</title>
 
 <style>
@@ -15,7 +16,11 @@ body{
 header{
   background:white;
   padding:20px;
-  font-size:28px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+  font-size:32px;
   font-weight:bold;
   color:#2563eb;
 }
@@ -26,33 +31,91 @@ header{
 
 .card{
   background:white;
-  border-radius:12px;
-  padding:16px;
+  border-radius:18px;
+  padding:20px;
+  margin-bottom:20px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card img{
+  width:100%;
+  border-radius:14px;
   margin-bottom:15px;
-  box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.card h2{
+  margin:0 0 10px;
+  font-size:28px;
+}
+
+.card p{
+  margin:0 0 18px;
+  color:#444;
+  font-size:18px;
+}
+
+.btn{
+  display:inline-block;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  padding:12px 18px;
+  border-radius:12px;
+  font-weight:bold;
 }
 </style>
 </head>
 
 <body>
 
-<header>Kemasin.id</header>
+<header>
+<div class="logo">Kemasin.id</div>
+</header>
 
 <section class="products">
 
 <div class="card">
+<img src="bubblewrap.jpg" alt="Bubble Wrap Jumbo">
 <h2>Bubble Wrap Jumbo</h2>
-<p>Ready stok • harga grosir</p>
+<p>
+Bubble wrap untuk packing aman.
+Tersedia grosir & ecer.
+</p>
+
+<a class="btn"
+href="https://wa.me/6281234567890">
+Pesan via WhatsApp
+</a>
 </div>
 
+
 <div class="card">
+<img src="ziplock.jpg" alt="Ziplock">
 <h2>Ziplock</h2>
-<p>Banyak ukuran tersedia</p>
+<p>
+Berbagai ukuran tersedia.
+Cocok untuk UMKM & packaging makanan.
+</p>
+
+<a class="btn"
+href="https://wa.me/6281234567890">
+Pesan via WhatsApp
+</a>
 </div>
 
+
 <div class="card">
+<img src="standingpouch.jpg" alt="Standing Pouch">
 <h2>Standing Pouch</h2>
-<p>Cocok untuk snack & frozen food</p>
+<p>
+Cocok untuk snack,
+kopi, frozen food, dan kebutuhan kemasan.
+</p>
+
+<a class="btn"
+href="https://wa.me/6281234567890">
+Pesan via WhatsApp
+</a>
 </div>
 
 </section>
